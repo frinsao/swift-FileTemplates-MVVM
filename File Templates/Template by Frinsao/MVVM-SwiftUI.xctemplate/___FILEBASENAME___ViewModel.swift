@@ -1,8 +1,7 @@
-
 import Foundation
 
-class ___FILEBASENAME___: ObservableObject, ___FILEBASENAME___Protocol {
+class ___VARIABLE_moduleNameUIName___ViewModel: ObservableObject, ___VARIABLE_moduleNameUIName___ViewModelProtocol {
 
-	required init() {
-	}
+    required init() {
+    }
 }

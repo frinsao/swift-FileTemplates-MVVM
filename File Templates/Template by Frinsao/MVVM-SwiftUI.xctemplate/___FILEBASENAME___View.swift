@@ -1,7 +1,6 @@
-
 import SwiftUI
 
-struct ___FILEBASENAME___<VM>: View where VM: ___VARIABLE_moduleName___ViewModelProtocol {
+struct ___VARIABLE_moduleNameUIName___View<VM>: View where VM: ___VARIABLE_moduleNameUIName___ViewModelProtocol {
     @ObservedObject var viewModel: VM
 
     var body: some View {
@@ -10,5 +9,5 @@ struct ___FILEBASENAME___<VM>: View where VM: ___VARIABLE_moduleName___ViewModel
 }
 
 #Preview {
-    ___VARIABLE_moduleName___Builder().build()
+    ___VARIABLE_moduleNameUIName___Builder().build()
 }

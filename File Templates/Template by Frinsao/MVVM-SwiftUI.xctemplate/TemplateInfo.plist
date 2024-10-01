@@ -2,100 +2,100 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>DefaultCompletionName</key>
-    <string>A Frinsao file template</string>
-    <key>Description</key>
-    <string>This generates a new SwiftUI module using an architecture based on MVVM design patterns.</string>
-    <key>Kind</key>
-    <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-    <key>SortOrder</key>
-    <integer>2</integer>
-    <key>Options</key>
-    <array>
-        <dict>
-            <key>Description</key>
-            <string>The name of the module to create</string>
-            <key>Identifier</key>
-            <string>moduleName</string>
-            <key>Name</key>
-            <string>New Module Name:</string>
-            <key>NotPersisted</key>
-            <true/>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
-        <dict>
-            <key>Default</key>
-            <string>___VARIABLE_moduleName___View</string>
-            <key>Description</key>
-            <string>View name</string>
-            <key>Identifier</key>
-            <string>viewName</string>
-            <key>Name</key>
-            <string>View Name:</string>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
-        <dict>
-            <key>Default</key>
-            <string>___VARIABLE_moduleName___ViewModel</string>
-            <key>Description</key>
-            <string>ViewModel name</string>
-            <key>Identifier</key>
-            <string>viewModelName</string>
-            <key>Name</key>
-            <string>ViewModel Name:</string>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
-        <dict>
-            <key>Default</key>
-            <string>___VARIABLE_moduleName___Protocols</string>
-            <key>Description</key>
-            <string>Protocols name</string>
-            <key>Identifier</key>
-            <string>protocolsName</string>
-            <key>Name</key>
-            <string>Protocols Name:</string>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
-        <dict>
-            <key>Default</key>
-            <string>___VARIABLE_moduleName___Builder</string>
-            <key>Description</key>
-            <string>Builder name</string>
-            <key>Identifier</key>
-            <string>builderName</string>
-            <key>Name</key>
-            <string>Builder Name:</string>
-            <key>Required</key>
-            <true/>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
-        <dict>
-            <key>Default</key>
-            <string>___VARIABLE_moduleName___</string>
-            <key>Identifier</key>
-            <string>productName</string>
-            <key>Type</key>
-            <string>text</string>
-        </dict>
-    </array>
-    <key>Platforms</key>
-    <array>
-        <string>com.apple.platform.iphoneos</string>
-    </array>
-    <key>Summary</key>
-    <string>This generates a new SwiftUI module using an architecture based on MVVM design patterns.</string>
+	<key>DefaultCompletionName</key>
+	<string>A Frinsao file template</string>
+	<key>Description</key>
+	<string>This generates a new SwiftUI module using an architecture based on MVVM design patterns.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Identifier</key>
+			<string>moduleNameUIName</string>
+			<key>Name</key>
+			<string>New Module Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameUIName___View</string>
+			<key>Description</key>
+			<string>View name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameUIName___ViewModel</string>
+			<key>Description</key>
+			<string>ViewModel name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameUIName___Protocols</string>
+			<key>Description</key>
+			<string>Protocols name</string>
+			<key>Identifier</key>
+			<string>protocolsName</string>
+			<key>Name</key>
+			<string>Protocols Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameUIName___Builder</string>
+			<key>Description</key>
+			<string>Builder name</string>
+			<key>Identifier</key>
+			<string>builderName</string>
+			<key>Name</key>
+			<string>Builder Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleNameUIName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>This generates a new SwiftUI module using an architecture based on MVVM design patterns.</string>
 </dict>
 </plist>

@@ -1,6 +1,5 @@
-
 import Foundation
 
-protocol ___VARIABLE_moduleName___ViewModelProtocol: ObservableObject {
+protocol ___VARIABLE_moduleNameUIName___ViewModelProtocol: ObservableObject {
 
 }
